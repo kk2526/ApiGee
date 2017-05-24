@@ -1,7 +1,5 @@
 ---
 
-
-
   - name: delete nginx/conf.d directory
     command: rm -f /opt/nginx/conf.d/*
 
