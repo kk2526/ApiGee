@@ -1,0 +1,9 @@
+---
+
+
+
+  - name: delete nginx/conf.d directory
+    command: rm -f /opt/nginx/conf.d/*
+
+  - name: Restart Edge Router
+    command: /opt/apigee/apigee-service/bin/apigee-service edge-router restart
